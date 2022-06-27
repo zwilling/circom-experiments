@@ -21,6 +21,9 @@ proof:
 verify:
 	snarkjs groth16 verify ../trusted_setup/${MODULE}/verification_key.json example/public.json example/proof.json
 
+solidity:
+	snarkjs zkey export solidityverifier ../trusted_setup/${MODULE}/${MODULE}_0001.zkey build/verifier.sol
+
 all:
 	make compile
 	make setup
