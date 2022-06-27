@@ -3,6 +3,8 @@ Forked from tornado cash nova
 Main difference to merkle trees on Ethereum is that they use the poseidon hash, which is more zk friendly.
 */
 
+pragma circom 2.0.0;
+
 include "../../circomlib/circuits/bitify.circom";
 include "../../circomlib/circuits/poseidon.circom";
 include "../../circomlib/circuits/switcher.circom";

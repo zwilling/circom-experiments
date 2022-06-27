@@ -1,0 +1,11 @@
+{
+    "balanceThreshold": 100,
+    "merkleRoot": 0,
+    "balance": 120,
+    "address": 69,
+    "addressNonce": 0,
+    "addressStorageRoot": 0,
+    "addressCodeHash": 0,
+    "merklePathElements": 0,
+    "merklePathIndices": 0
+}
